@@ -60,7 +60,7 @@ useEffect(passwordgenerator
 
         ref={inputRef}
         ></input>
-        <button onClick={copyPass}>copy</button>
+        <button onClick={copyPass} className="bg-blue-500 text-black px-4 py-2 rounded mt-4 hover:bg-blue-600 transition-colors">copy</button>
       </div>
         <div className='flex space-x-4 items-center mt-4'>
           <input onChange={(e) => setLength(e.target.value)} type="range" name="passwordLength" id="passwordLength" min="6" max="28" />
