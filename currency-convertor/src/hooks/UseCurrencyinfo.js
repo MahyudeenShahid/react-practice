@@ -1,11 +1,12 @@
-import React, { use, useState } from 'react'
+import React, {  useEffect, useState } from 'react'
 
-function UseCurrencyinfo() {
+function UseCurrencyinfo(currency) {
 
     const [data, setData] = useState({});
 
-    useEffect((currency) => {
-        fetch(`hhttps://api.frankfurter.app/latest?from=${currency}`
+    useEffect(() => {
+        // currency = currency.toUppercase()
+        fetch(`https://api.frankfurter.app/latest?from=${currency}`
         )
             .then((res) => res.json())
             .then((res) => setData(res["rates"]))
