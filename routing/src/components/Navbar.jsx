@@ -14,6 +14,9 @@ function Navbar() {
         <NavLink to="/contact">
             Contact
         </NavLink>
+        <NavLink to="/users">
+            Users
+        </NavLink>
         <NavLink to="/services">
             Services
         </NavLink>
