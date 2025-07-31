@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import Navbar from './components/Navbar'
+import Routing from './Utils/Routing'
 
 
 function App() {
@@ -6,6 +8,8 @@ function App() {
 
   return (
     <>
+      <Navbar />
+      <Routing />
     </>
   )
 }
