@@ -45,6 +45,51 @@ Quick setup steps:
 
 You don’t need to be an expert in all of these, but familiarity will make learning React much smoother.
 
+## Core React concepts for beginners
+
+Below are the essential React concepts every beginner should learn, with a one-line explanation and a tiny exercise to practice each.
+
+- JSX — JavaScript syntax extension used to describe UI.
+   - Exercise: Create a small component that returns JSX with an element and some text.
+
+- Components — Reusable pieces of UI (functional components are preferred).
+   - Exercise: Split a UI into two components (parent and child) and pass data via props.
+
+- Props — Read-only inputs to a component used to pass data from parent to child.
+   - Exercise: Make a child component accept a `title` prop and render it.
+
+- State (`useState`) — Local component data that drives UI updates.
+   - Exercise: Add a counter using `useState` and buttons to increment/decrement.
+
+- Effects (`useEffect`) — Run side-effects (data fetch, subscriptions) in response to changes.
+   - Exercise: Use `useEffect` to log to the console whenever a state value changes.
+
+- Event handling — Respond to user events (clicks, inputs) using handlers.
+   - Exercise: Wire an input's `onChange` to update state and show the value live.
+
+- Conditional rendering — Show or hide UI based on state.
+   - Exercise: Render a "Login" or "Logout" button depending on an `isLoggedIn` boolean.
+
+- Lists & keys — Render arrays with `.map()` and use stable `key` props.
+   - Exercise: Render a list of items and use an `id` as the `key`.
+
+- Forms & controlled components — Keep form inputs in React state for validation and control.
+   - Exercise: Build a simple controlled form with an input and a submit handler.
+
+- Refs (`useRef`) — Hold references to DOM nodes or mutable values across renders.
+   - Exercise: Focus an input with a button using a ref.
+
+- Context — Share data across many components without prop drilling.
+   - Exercise: Create a small ThemeContext and use it in two components.
+
+- Routing — Manage navigation with React Router (routes, links, params).
+   - Exercise: Add two routes and navigate between them with `Link`.
+
+- Debugging & DevTools — Use console, breakpoints, and React DevTools to inspect props/state.
+   - Exercise: Install React DevTools and inspect component state.
+
+These are the core building blocks — once you're comfortable with the list above, you'll be ready to explore custom hooks, performance optimization, testing, and state management libraries.
+
 ## Projects in this workspace
 
 The workspace root contains a set of small, focused React projects. Each project is self-contained with its own `package.json` and `src` folder. The projects are ordered roughly by complexity and learning progression.
