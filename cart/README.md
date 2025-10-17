@@ -1,12 +1,34 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# cart
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A small shopping-cart style demo built with React and Vite. This project demonstrates rendering lists, toggling item state (added to cart), passing props, and simple UI composition.
 
-## Expanding the ESLint configuration
+## Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Use this project to practice building a collection-based UI and simple cart interactions.
+
+## What you'll learn
+
+- Rendering lists with `Array.map` and using `key` props
+- Managing collections and toggling boolean flags (e.g., `added`) using `useState`
+- Passing data and callbacks between components (lifting state up)
+- Basic component composition and styling
+
+## Files to look at
+
+- `src/App.jsx` — contains the `products` array and main layout
+- `src/components/Nav.jsx` — navigation/header component
+- `src/components/Card.jsx` — displays product cards and actions
+
+## Run locally
+
+```powershell
+cd cart
+npm install
+npm run dev
+```
+
+---
+
+developed by Mahyudeen Shahid with ❤

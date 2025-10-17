@@ -1,12 +1,31 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Routing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A small demo showing client-side routing with React Router (or a similar router). Use this to learn how to create multi-page experiences without a server round-trip.
 
-## Expanding the ESLint configuration
+## What you'll learn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Basic setup of React Router
+- Defining routes and nested routes
+- Linking between pages and reading route params
+
+## Files to look at
+
+- `src/` — look for router setup (BrowserRouter, Routes, Route)
+
+## Run locally
+
+```powershell
+cd routing
+npm install
+npm run dev
+```
+
+## Exercises
+
+- Add a 404 page
+- Add dynamic routes with parameters
+---
+
+developed by Mahyudeen Shahid with ❤

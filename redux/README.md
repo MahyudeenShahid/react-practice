@@ -1,12 +1,25 @@
-# React + Vite
+# redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Example project demonstrating global state management patterns in React (Redux or alternatives). Use it to explore how actions, reducers, and store interact with components.
 
-Currently, two official plugins are available:
+## What you'll learn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Core Redux concepts: actions, reducers, store
+- Connecting components with hooks (`useSelector`, `useDispatch`) or `connect`
+- Organizing state and reducers for larger apps
 
-## Expanding the ESLint configuration
+## Files to look at
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/` — look for `store` setup, reducers, and components connected to the store
+
+## Run locally
+
+```powershell
+cd redux
+npm install
+npm run dev
+```
+
+---
+
+developed by Mahyudeen Shahid with ❤

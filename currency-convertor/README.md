@@ -1,12 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# currency-convertor
 
-Currently, two official plugins are available:
+Small currency converter app using a custom hook to fetch currency data (see `hooks/UseCurrencyinfo.js`). This project demonstrates `useEffect`, custom hooks, and handling async data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What you'll learn
 
-## Expanding the ESLint configuration
+- Using `useEffect` for side effects and data fetching
+- Creating and using custom hooks
+- Handling loading and error states
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Files to look at
+
+- `src/App.jsx` — main application
+- `src/components/InputBox.jsx` — input components for amounts and currencies
+- `src/hooks/UseCurrencyinfo.js` — custom hook for fetching currency rates
+
+## Run locally
+
+```powershell
+cd currency-convertor
+npm install
+npm run dev
+```
+
+---
+
+developed by Mahyudeen Shahid with ❤

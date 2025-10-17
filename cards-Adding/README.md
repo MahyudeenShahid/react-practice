@@ -1,12 +1,27 @@
-# React + Vite
+## Purpose
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small demo that shows adding and removing cards/items in a list. Good for practicing list rendering, controlled forms, and state updates when working with arrays.
 
-Currently, two official plugins are available:
+## What you'll learn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Rendering lists with `Array.map` and `key` props
+- Adding/removing items from arrays in state (immutable updates)
+- Controlled form inputs for creating new items
+- Lifting state up to share data between components
 
-## Expanding the ESLint configuration
+## Files to look at
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/App.jsx` — main app and container for the cards
+- `src/components/` — card components and any form components used to add items
+
+## Run locally
+
+```powershell
+cd cards-Adding
+npm install
+npm run dev
+```
+
+---
+
+developed by Mahyudeen Shahid with ❤
