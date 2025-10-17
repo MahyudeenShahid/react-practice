@@ -1,5 +1,5 @@
 
-# first_react_app
+# first_react
 
 A small beginner React project using Vite. This project demonstrates the basics of React components, JSX, state with `useState`, and simple event handling.
 
@@ -26,7 +26,7 @@ This project is intended as a first hands-on introduction to React. It's intenti
 Make sure you have Node.js installed (LTS recommended). Then run:
 
 ```powershell
-cd first_react_app
+cd first_react
 npm install
 npm run dev
 ```

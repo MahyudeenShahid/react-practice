@@ -49,7 +49,7 @@ You don’t need to be an expert in all of these, but familiarity will make lear
 
 The workspace root contains a set of small, focused React projects. Each project is self-contained with its own `package.json` and `src` folder. The projects are ordered roughly by complexity and learning progression.
 
-1. `first_react_app/` — Beginner intro
+1. `first_react/` — Beginner intro
    - What you'll learn: Basic component creation, JSX, props, simple state using `useState`, event handling.
    - Main files: `src/App.jsx`, `src/main.jsx`, `components/` (Button, Counter, Nav)
    - How to run:
@@ -111,7 +111,7 @@ Each project uses Vite (see `vite.config.js`) and includes an `index.html` and `
 
 ## Step-by-step learning path (recommended)
 
-1. first_react_app — Beginner fundamentals (30–60 minutes)
+1. first_react — Beginner fundamentals (30–60 minutes)
    - Goals: Learn JSX, functional components, props, simple `useState` usage, and event handling.
    - Quick exercise: Add a new component and pass props to it.
 
